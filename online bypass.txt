@@ -74,4 +74,4 @@ MemoryPatch::createWithHex(OBFUSCATE("libRoosterNN.so"), 0x3044C, "2D E9 F8 4F")
 MemoryPatch::createWithHex(OBFUSCATE("libRoosterNN.so"), 0x31D60, "00 22").Modify();
 MemoryPatch::createWithHex(OBFUSCATE("libRoosterNN.so"), 0x32CAA, "10 B5").Modify();
 MemoryPatch::createWithHex(OBFUSCATE("libRoosterNN.so"), 0x370D4, "2D E9 F0 4F").Modify();
- 
+PATCH_LIB("libUE4.so", "0x2EA9700", "78 00 A0 E3 1E FF 2F E1");
